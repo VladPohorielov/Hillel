@@ -1,23 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Tagesschrift&display=swap');
-body{
-    font-family: 'Oswald', sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-    line-height: 1.6;
-
-}    
-main{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Tagesschrift&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(./Fon.jpg);
+  background-repeat: no-repeat;
 }
 header {
-        text-align: center;
-        padding: 20px 0;
-        background-color: #fff;
-
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fff;
 }
 p {
-        font-size: 20px;
-        font-weight: 500;
-      }
+  font-size: 20px;
+  font-weight: 500;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #33333324;
+  padding: 20px 0;
+}
+aside{
+max-width: 700px;
+}
