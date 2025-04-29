@@ -1,0 +1,27 @@
+body{
+    max-width: 800px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+button{
+        border-radius: 16px;
+        color: white; 
+        background: #0B63F6;
+}
+form{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+a{
+    width: 300px;
+    height: 200px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+   
+
+}
