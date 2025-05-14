@@ -318,6 +318,7 @@ body {
   line-height: 35px;
   font-weight: 300;
   font-size: 18px;
+  margin-right: 10px;
 }
 .page-link:hover {
   background-color: #46a358;
