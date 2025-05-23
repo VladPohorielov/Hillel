@@ -264,6 +264,7 @@ body {
 .product {
   display: block;
   margin-left: 0;
+  margin-bottom: 62px;
 }
 .container-card {
   display: block;
@@ -283,8 +284,9 @@ body {
   content: "";
   position: absolute;
   left: 0;
+  top: -25px;
   width: 100%;
-  top: 0px;
+
   height: 1px;
   background-color: #46a358;
 }
