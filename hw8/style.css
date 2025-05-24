@@ -317,12 +317,17 @@ body {
   width: 100%;
 }
 .product-image-hover {
+opacity: 0;
   display: flex;
   gap: 26px;
   top: 95%;
   left: 26%;
   position: absolute;
   justify-content: center;
+}
+
+.product-card:hover .product-image-hover {
+  opacity: 1;
 }
 .old-price {
   font-size: 18px;
