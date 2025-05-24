@@ -278,6 +278,7 @@ body {
   background-color: #fbfbfb;
   width: 258px;
   box-sizing: border-box;
+  margin-bottom: 70px;
   vertical-align: top;
 }
 .product-card:hover::after {
