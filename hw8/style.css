@@ -299,6 +299,7 @@ body {
   margin-bottom: 28px;
 }
 .discount-badge {
+  z-index: 1;
   margin-top: 14px;
   position: absolute;
   top: 0;
