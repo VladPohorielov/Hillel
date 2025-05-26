@@ -318,7 +318,7 @@ body {
   width: 100%;
 }
 .product-image-hover {
-opacity: 0;
+  opacity: 0;
   display: flex;
   gap: 26px;
   top: 95%;
@@ -528,4 +528,68 @@ opacity: 0;
   display: flex;
   justify-content: center;
   column-gap: 40px;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-weight: 400;
+  min-width: 188px;
+  font-size: 16px;
+  color: #3d3d3d;
+  background-color: #f8fff6;
+}
+.has-submenu {
+  position: relative;
+}
+.nav-item:hover > .submenu {
+  display: block;
+}
+.submenu-item {
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+.has-arrow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.submenu-item.has-submenu {
+  position: relative;
+}
+.submenu-arrow {
+  display: inline-block;
+}
+
+.submenu-arrow-2 {
+  display: none;
+}
+
+.submenu-item.has-submenu:hover .submenu-arrow {
+  display: none;
+}
+
+.submenu-item.has-submenu:hover .submenu-arrow-2 {
+  display: inline-block;
+}
+.submenu-level-2 {
+  top: -110px;
+  left: 100%;
+  background-color: #f0f9f0;
+  position: absolute;
+  display: none;
+  min-width: 180px;
+  z-index: 10;
+}
+.submenu-item.has-arrow.has-submenu:hover{
+  background-color: #1A712A;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.submenu-item.has-submenu:hover > .submenu-level-2 {
+  display: block;
 }
