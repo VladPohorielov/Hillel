@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant Shop - Loading</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="preloader-page">
+    <div class="preloader" id="preloader">
+      <div class="preloader__particles">
+        <div class="preloader__particle"></div>
+        <div class="preloader__particle"></div>
+        <div class="preloader__particle"></div>
+        <div class="preloader__particle"></div>
+        <div class="preloader__particle"></div>
+      </div>
+
+      <div class="preloader__plant-icon">🌱</div>
+
+      <div class="preloader__logo">
+        <div class="preloader__logo-text">GreenShop</div>
+      </div>
+
+      <div class="preloader__spinner">
+        <div class="preloader__leaf"></div>
+        <div class="preloader__leaf"></div>
+        <div class="preloader__leaf"></div>
+        <div class="preloader__leaf"></div>
+      </div>
+
+      <div class="preloader__text">Growing your garden...</div>
+
+      <div class="preloader__progress">
+        <div class="preloader__progress-bar"></div>
+      </div>
+
+      <div class="preloader__footer">Let's make a better planet</div>
+    </div>
+
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          const preloader = document.getElementById("preloader");
+          preloader.classList.add("hidden");
+
+          setTimeout(function () {
+            window.location.href = "index.html";
+          }, 500);
+        }, 3000);
+      });
+    </script>
+  </body>
+</html>

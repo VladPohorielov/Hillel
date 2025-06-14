@@ -1,0 +1,81 @@
+/* Оптимальний CSS Reset, що видаляє стандартні браузерні стилі та забезпечує консистентність */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Видаляємо стандартні стилі для списків */
+ol, ul {
+  list-style: none;
+}
+
+/* Таблиці */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Видаляємо стандартні стилі для цитат */
+blockquote, q {
+  quotes: none;
+}
+
+/* Видаляємо стандартні обриси для інтерактивних елементів */
+:focus {
+  outline: 0;
+}
+
+/* Забезпечуємо коректне відображення HTML5 елементів у старих браузерах */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Видаляємо стандартні стилі для посилань */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Нормалізуємо поведінку зображень */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Видаляємо стандартний вигляд для input та button */
+input, button, textarea, select {
+  font: inherit;
+  background: none;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Вимикаємо стандартні стилі для disabled елементів */
+:disabled {
+  cursor: default;
+}
+
+/* Корекція для SVG */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Забезпечуємо коректне відображення тексту */
+body {
+  line-height: 1;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
